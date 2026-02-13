@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.header-left {
+    font-size: 24px;
+
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.hero-banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    color: white;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.four-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+
+.placeholder-img {
+    width: 150px;
+    /* Reserve width */
+    height: 150px;
+    /* Reserve height */
+    background-color: #eee;
+    /* A background color while the image loads */
+    /* Optional: Add a simple background image (like a silhouette) */
+    /* background-image: url('placeholder-icon.svg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Hide the default browser broken image icon */
+    color: transparent;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    margin-top: auto;
+    padding: 10px 0;
+}
